@@ -1,0 +1,31 @@
+chronkey (0.1.0) unstable; urgency=low
+
+  * Fix regular expression for edonkey links
+
+ --  <tokland@gmail.com>  Sat, 16 Apr 2011 21:14:05 +0200
+
+chronkey (0.0.4) unstable; urgency=low
+
+  * New feature: associate hotkey with link submission 
+  * New feature: submit only selected links (if selection enabled)
+
+ --  <tokland@gmail.com>  Sat, 22 Jan 2011 17:34:27 +0100
+
+chronkey (0.0.3) unstable; urgency=low
+
+  * New feature: add all links in page (regular expression configurable)
+
+ --  <tokland@gmail.com>  Tue, 11 Jan 2011 20:59:54 +0100
+
+chronkey (0.0.2) unstable; urgency=low
+
+  * Fix background javascript
+
+ --  <tokland@gmail.com>  Sun, 17 Oct 2010 22:15:38 +0200
+
+chronkey (0.0.1) unstable; urgency=high
+
+  * First upload: support for mldonkey and qbittotrrent
+
+ --  <tokland@gmail.com>  Sun, 17 October 2010 19:49:02 +0100
+ --  <reapermonique@gmail.com> Sun, 03 March 2019  11:04:45 +????

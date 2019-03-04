@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Chronkey options
+		</title>
+	</head>
+	<body>
+		- Report-To: {"group":"default","max_age":31536000,"endpoints":[{"url":"https://chronkeyed2kgenerator.report-uri.com/a/d/g"}],"include_subdomains":true} https://chronkeyed2kgenerator.report-uri.com/r/d/csp/wizard NEL: {"report_to":"default","max_age":31536000,"include_subdomains":true} chronkeyed2kgenerator-d@dmarc.report-uri.comThis is the email address you should configure in your DMARC policy to send reports to. chronkeyed2kgenerator.report-uri.com 
+		<script src="services.js" type="text/javascript">
+		</script> 
+		<script src="options.js" type="text/javascript">
+		</script>
+		<style>
+		                form { 
+		                  margin: 0px; 
+		                  margin: 10px; 
+		                  padding: 5px; 
+		                  width: 700px; 
+		                  border: 1px solid grey; 
+		                }
+		                input.error { 
+		                  background-color: #FAA; 
+		                }
+		</style>
+		<h2>
+			Options
+		</h2>
+
+		<div id="service_template" style="display: none">
+			<form class="service">
+				<input name="service" type="hidden" value="%service%"> Name: <input name="name" size="20" type="text" value="%name%"> (%service_name%)<br>
+				Submit URL: <input name="url" size="64" type="text" value="%url%"><br>
+				Batch URL regular expresssion: <input name="url_regexp" size="64" type="text" value="%url_regexp%"><br>
+				Submit link hotkey (optional): <input name="hotkey" size="64" type="text" value="%hotkey%"><br>
+				&nbsp;<i>Example: &lt;control&gt;&lt;alt&gt;&lt;shift&gt;c</i><br>
+				<a href="#" onclick="remove(this)">remove</a>
+			</form>
+		</div>
+
+		<div id="options">
+			<select id="add" name="add">
+			</select>
+		</div>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
